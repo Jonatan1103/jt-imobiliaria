@@ -1,0 +1,89 @@
+
+.titulo {
+  font-family: 'Playfair Display', serif;
+  color: #525252;
+}
+
+.subtitulo {
+  font-family: 'Merriweather', serif;
+}
+
+.titulo:hover {
+  color: #525252;
+}
+
+.imagem-logo {
+  width: 100px;
+  border-radius: 6px;
+}
+
+.nav-item .titulo.active {
+  background-color: #525252;
+}
+
+header.navbar-expand-lg {
+  background-color: #f0f0f0;
+}
+
+img.w-100 {
+  max-height:800px;
+}
+
+img.d-block {
+  max-height: 200px;
+}
+
+.nav-pills .nav-link {
+  color: #525252;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #525252;
+}
+
+.subtitulo-color {
+  background-color: #525252;
+  color: #f0f0f0;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links li a {
+  color: #525252;
+  text-decoration: none;
+}
+
+.social-links li a:hover {
+  color: #1b1b1b;
+}
+
+.btn {
+  background-color: #525252;
+  color: #f0f0f0;
+}
+
+.btn:hover {
+  background-color: #1b1b1b;
+  color: #f0f0f0;
+}
+
+label.error {
+  color: rgb(175, 0, 0);
+}
+
+textarea {
+  resize: none;
+  height: 200px;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 280px;
+  }
+  nav.navbar-collapse {
+    padding-top: 20px;
+  }
+}
